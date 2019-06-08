@@ -1,0 +1,12 @@
+.container {
+  margin-top: 70px;
+  display: flex;
+}
+
+main {
+  padding: 40px;
+  font-size: 36px;
+  background-color: var(--color-grey-light-1);
+  width: 100%;
+  min-height: calc(100vh - 70px);
+}

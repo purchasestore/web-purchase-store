@@ -14,8 +14,10 @@ import { ReportsComponent } from './components/features/reports/reports.componen
 import { SalesComponent } from './components/features/sales/sales.component';
 import { SuppliersComponent } from './components/features/suppliers/suppliers.component';
 import { ProfileComponent } from './components/features/profile/profile.component';
-import { HomeComponent } from './components/home/home.component';
+import { DashboardComponent } from './components/features/dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from './components/login/login.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { AppRoutingModule } from './app-routing.module';
     SalesComponent,
     SuppliersComponent,
     ProfileComponent,
-    HomeComponent
+    DashboardComponent,
+    LoginComponent,
+    MainComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
